@@ -2,7 +2,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-.home {
+#home {
     height: 500px;
     background-image: url('images/hero-image.jpg');
     background-size: cover;
