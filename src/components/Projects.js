@@ -8,6 +8,13 @@ class Projects extends React.Component {
         showProjectThree: false,
     }
 
+ 
+    // handleToggleProject = (event) => {
+    //     this.setState((prevState) => {
+    //         let prevState = {...this.state}
+    //     })
+    // }
+
     toggleProjects0Handler = (event) => {
         this.setState((prevState) => {
             return {

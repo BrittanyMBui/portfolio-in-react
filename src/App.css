@@ -1,13 +1,23 @@
+* {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
 }
 
 #home {
-    height: 500px;
+    height: 600px;
     background-image: url('images/hero-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.home-header {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #683b2b;
 }
 
 .home-text {
@@ -17,6 +27,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 26px;
 }
 
 .icon {
