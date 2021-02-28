@@ -2,8 +2,38 @@
     list-style-type: none;
 }
 
+:root {
+    --hover-text: #683b2b;
+    --link-text: #75654C;
+    --top-bottom-bg: #D49E8D;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
+    background-color: #DAB692;
+}
+
+.nav {
+    background-color: var(--top-bottom-bg);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: var(--hover-text);
+    flex-direction: row;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-text);
+}
+
+a:hover {
+    color: var(--hover-text);
+    font-weight: bold;
 }
 
 #home {
@@ -28,6 +58,20 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 26px;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact {
+    background-color: var(--top-bottom-bg);
+}
+
+.contact-item {
+    flex-direction: row;
 }
 
 .icon {

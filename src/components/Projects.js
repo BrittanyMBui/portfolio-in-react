@@ -11,7 +11,7 @@ class Projects extends React.Component {
  
     // handleToggleProject = (event) => {
     //     this.setState((prevState) => {
-    //         let prevState = {...this.state}
+            
     //     })
     // }
 
