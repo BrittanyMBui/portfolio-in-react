@@ -6,14 +6,10 @@ class Projects extends React.Component {
         showProjectOne: false,
         showProjectTwo: false,
         showProjectThree: false,
+        showProjectFour: false,
     }
 
  
-    // handleToggleProject = (event) => {
-    //     this.setState((prevState) => {
-            
-    //     })
-    // }
 
     toggleProjects0Handler = (event) => {
         this.setState((prevState) => {
@@ -47,6 +43,14 @@ class Projects extends React.Component {
         })
     }
 
+    toggleProject4Handler = (event) => {
+        this.setState((prevState) => {
+            return {
+                showProjectFour: !prevState.showProjectFour
+            }
+        })
+    }
+
 
 render () {
     return (
@@ -54,7 +58,7 @@ render () {
             <h1>Projects</h1>
             
             <article className="project-zero">
-                <h3>Tamagotchi</h3>
+                <h3><a href="https://github.com/BrittanyMBui/tamagotchi">Tamagotchi</a></h3>
                 <button onClick={this.toggleProjects0Handler}>
                     {this.state.showProjectZero ? 'Hide' : 'View' } Project Description
                 </button>
@@ -63,9 +67,15 @@ render () {
                     This was my first coding project at General Assembly.
                     I built an in-browser interactive game where a user
                     could care for a pet until it dies of old age or neglect.
-                    Project was built using HTML, CSS, JavaScript, and jQuery.
-                    This project was completed over 1.5 weeks and strengthened
-                    my JavaScript and jQuery skills.
+                    I built this project using JavaScript, jQuery, HTML, and CSS.
+                    I used JavaScript and jQuery to access DOM elements and make
+                    this game interactive for the user. I built a counter which started at
+                    0 and triggered a new event at certain intervals. For example, every x
+                    amount of seconds, a state would increase. If certain stats reached a certain
+                    integer, your pet would reach critical stats and display those stats in red, and
+                    trigger a new gif to display their ailment.
+                    I had a lot of fun building this one. It was an excellent introduction to the 
+                    infinite possibilities of coding.
                 </p>
                 </div>
             </article>
@@ -81,10 +91,16 @@ render () {
                     journaling app, where a user could sign-up or log-in to a private profile and
                     create, read, edit, or delete journal entries. We built this app using JavaScript,
                     Express.js, Node.js, EJS, Mongoose, and used MongoDB for the database.
-                    My role in this project was to build out the back-end and functionality. 
-                    I also integrated a Rich Text Editor for journal entries.
+                    My role in this project was to build out the back-end and functionality. I built the server
+                    using Express.js and the database with Mongoose/MongoDB. I built routes and controllers
+                    to allow a user to sign-up or log-in to their profile, each of which would begin a session using
+                    Express Session. I also built routes and controllers for a user to be able to create a new entry,
+                    edit an existing entry, view all entries, view one entry, delete an entry, or delete their accounts
+                    entirely. I also built a route and controller for a user to log-out of their profile and destroy
+                    the session, redirecting them to the landing page.
+                    I integrated a Rich Text Editor (Tiny MCE) for journal entries.
                     I implemented Bcrypt functionality for password protection, and implemented Express Validator
-                    for confirm password functionality upon sign-up.  
+                    for confirm password functionality upon sign-up. I was and still am incredibly proud of this project!
                 </p>
                 </div>
             </article>
@@ -121,6 +137,24 @@ render () {
                     to a detailed view page of the to-do task. From there, they can edit or delete the task as well.
                     From the profile page, the user can also add a new to-do task. I built this project using Python, Django, CSS, and PostgreSQL
                     as the database.
+                </p>
+                </div>
+            </article>
+            <article className="project-four">
+                <h3>Island of Misfit Techies</h3>
+                <button onClick={this.toggleProject4Handler}>
+                    {this.state.showProjectFour ? 'Hide' : 'View' } Project Description
+                </button>
+                <div style={{ display: this.state.showProjectFour ? 'block' : 'none' }}>
+                <p>
+                    This was my capstone project at General Assembly. I chose to build a space for women and underrepresented people in technology. I built this
+                    project using MongoDB, Express, React, and Node. This application includes a customized news feed after user login and a journal-like page whether
+                    a user could create their own plaintext content. I integreated the TinyMCE rich text editor for the user created content. On the server-side, I 
+                    created a User model and Posts model to pass posts and user data from the server to React. I also implemented JWT authentication and route authorization.
+                    I had a questionable amount of fun implementing auth from Express to React. I really enjoyed refactoring my routes in Express and testing new ones in Postman.
+                    I used Bcryptjs to hash passwords in the database. 
+                    For the customzied news feed, I used News API and customzied the endpoint query parameters to include only articles containing keywords "underrepresented and technology".
+                    
                 </p>
                 </div>
             </article>
