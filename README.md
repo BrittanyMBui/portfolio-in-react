@@ -1,0 +1,1 @@
+This is my personal portfolio. I built this using React, static CSS, and deployed it with Heroku.

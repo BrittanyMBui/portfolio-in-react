@@ -148,13 +148,16 @@ render () {
                 <div style={{ display: this.state.showProjectFour ? 'block' : 'none' }}>
                 <p>
                     This was my capstone project at General Assembly. I chose to build a space for women and underrepresented people in technology. I built this
-                    project using MongoDB, Express, React, and Node. This application includes a customized news feed after user login and a journal-like page whether
-                    a user could create their own plaintext content. I integreated the TinyMCE rich text editor for the user created content. On the server-side, I 
+                    project using MongoDB, Express, React, and Node. I did all of the CSS and styling from scratch.
+                    This application includes a customized news feed after user login and a journal-like page where
+                    a user could create/view/edit/delete their own plaintext content. I integreated the TinyMCE rich text editor for the user created content. On the server-side, I 
                     created a User model and Posts model to pass posts and user data from the server to React. I also implemented JWT authentication and route authorization.
                     I had a questionable amount of fun implementing auth from Express to React. I really enjoyed refactoring my routes in Express and testing new ones in Postman.
                     I used Bcryptjs to hash passwords in the database. 
                     For the customzied news feed, I used News API and customzied the endpoint query parameters to include only articles containing keywords "underrepresented and technology".
-                    
+                    I am incredibly proud of this project because it greatly sharpened my React skills. I also gained a lot of experience with integrating multiple APIs into a single
+                    application and RESTful API routing. I truly enjoyed building an application using MERN stack! It was extremely complex with a ton of moving parts, but that's the
+                    gist of why I love programming.
                 </p>
                 </div>
             </article>
