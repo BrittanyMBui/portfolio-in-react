@@ -2,7 +2,6 @@ const Contact = () => {
 
     return (
         <div id="contact">
-        <h1>Contact</h1>
             <div className="contact">
                 <div className="contact-item">
                     <a href="mailto:brittymbui@gmail.com"><i className="fas fa-envelope icon"></i></a>

@@ -141,7 +141,7 @@ render () {
                 </div>
             </article>
             <article className="project-four">
-                <h3>Island of Misfit Techies</h3>
+                <h3><a href="https://iomt-app.herokuapp.com" target="_blank">Island of Misfit Techies</a></h3>
                 <button onClick={this.toggleProject4Handler}>
                     {this.state.showProjectFour ? 'Hide' : 'View' } Project Description
                 </button>
@@ -154,7 +154,7 @@ render () {
                     created a User model and Posts model to pass posts and user data from the server to React. I also implemented JWT authentication and route authorization.
                     I had a questionable amount of fun implementing auth from Express to React. I really enjoyed refactoring my routes in Express and testing new ones in Postman.
                     I used Bcryptjs to hash passwords in the database. 
-                    For the customzied news feed, I used News API and customzied the endpoint query parameters to include only articles containing keywords "underrepresented and technology".
+                    For the news feed, I used News API and customized the endpoint query parameters to include only articles containing keywords "underrepresented and technology".
                     I am incredibly proud of this project because it greatly sharpened my React skills. I also gained a lot of experience with integrating multiple APIs into a single
                     application and RESTful API routing. I truly enjoyed building an application using MERN stack! It was extremely complex with a ton of moving parts, but that's the
                     gist of why I love programming.

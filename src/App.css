@@ -6,48 +6,68 @@
     --hover-text: #683b2b;
     --link-text: #75654C;
     --top-bottom-bg: #D49E8D;
+    --navbar: #e99b9b;
+    --bg: #302939;
+    --text: #50595c;
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
-    background-color: #DAB692;
+    background-color: #f0e4d7;
+    font-family: 'Questrial', serif;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin: 4px 6px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 .nav {
-    background-color: var(--top-bottom-bg);
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 80px;
 }
 
 .nav-item {
-    color: var(--hover-text);
+    padding-top: 12px;
+    margin-left: 5px;
+    color: var(--bg);
     flex-direction: row;
     font-size: 30px;
 }
 
 a {
     text-decoration: none;
-    color: var(--link-text);
+    color: var(--bg);
 }
 
 a:hover {
-    color: var(--hover-text);
+    color: var(--top-bottom-bg);
     font-weight: bold;
 }
 
 #home {
     height: 600px;
-    background-image: url('images/hero-image.jpg');
+    background-image: url('images/hero-image.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .home-header {
-    font-size: 50px;
-    font-weight: bold;
-    text-shadow: 2px 2px #683b2b;
+    font-size: 60px;
 }
 
 .home-text {
@@ -57,7 +77,16 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 26px;
+    font-size: 24px;
+}
+
+#about {
+    margin-left: 6px;
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
 }
 
 .contact {
@@ -67,7 +96,7 @@ a:hover {
 }
 
 #contact {
-    background-color: var(--top-bottom-bg);
+    text-align: center;
 }
 
 .contact-item {
@@ -76,4 +105,8 @@ a:hover {
 
 .icon {
     font-size: 48px;
+}
+
+.icon:hover {
+    color: var(--top-bottom-bg);
 }
