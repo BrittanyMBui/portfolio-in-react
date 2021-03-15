@@ -92,9 +92,17 @@ a:hover {
     font-size: 24px;
 }
 
+img {
+    height: 300px;
+    width: 190px;
+    border-radius: 50%;
+    border: 3px solid var(--bg)
+}
+
 #about {
-    margin-left: 6px;
+    margin: 0 auto;
     text-align: center;
+    width: 700px;
 }
 
 #projects {
