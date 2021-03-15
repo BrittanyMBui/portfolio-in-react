@@ -29,7 +29,13 @@ button:hover {
 }
 
 h1 {
+    padding: 6px;
     font-size: 60px;
+    font-family: 'Satisfy';
+}
+
+p {
+    font-size: 18px;
 }
 
 .nav {
@@ -47,14 +53,20 @@ h1 {
     font-size: 30px;
 }
 
+.project-desc {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 8px;
+}
+
 a {
     text-decoration: none;
     color: var(--bg);
 }
 
 a:hover {
-    color: var(--top-bottom-bg);
-    font-weight: bold;
+    color: var(--bg);
+    font-family: 'Satisfy';
 }
 
 #home {
