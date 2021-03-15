@@ -80,7 +80,7 @@ render () {
                 </div>
             </article>
             <article className="project-one">
-                <h3>Zanou</h3>
+                <h3><a href="https://zanou.herokuapp.com" target="_blank">Zanou</a></h3>
                 <button onClick={this.toggleProjects1Handler}>
                     {this.state.showProjectOne ? 'Hide' : 'View' } Project Description
                 </button>
