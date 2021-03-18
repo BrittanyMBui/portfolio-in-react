@@ -71,7 +71,7 @@ render () {
                     I used JavaScript and jQuery to access DOM elements and make
                     this game interactive for the user. I built a counter which started at
                     0 and triggered a new event at certain intervals. For example, every x
-                    amount of seconds, a state would increase. If certain stats reached a certain
+                    amount of seconds, a stat would increase. If certain stats reached a certain
                     integer, your pet would reach critical stats and display those stats in red, and
                     trigger a new gif to display their ailment.
                     I had a lot of fun building this one. It was an excellent introduction to the 
