@@ -62,7 +62,7 @@ render () {
             <h1>Projects</h1>
             
             <article className="project-zero">
-                <h3><a href="https://github.com/BrittanyMBui/tamagotchi">Tamagotchi</a></h3>
+                <h3><a href="https://github.com/BrittanyMBui/tamagotchi"><u>Tamagotchi</u></a></h3>
                 <button onClick={this.toggleProjects0Handler}>
                     {this.state.showProjectZero ? 'Hide' : 'View' } Project Description
                 </button>
@@ -85,7 +85,7 @@ render () {
                 </div>
             </article>
             <article className="project-one">
-                <h3><a href="https://zanou.herokuapp.com" target="_blank">Zanou</a></h3>
+                <h3><a href="https://zanou.herokuapp.com" target="_blank"><u>Zanou</u></a></h3>
                 <button onClick={this.toggleProjects1Handler}>
                     {this.state.showProjectOne ? 'Hide' : 'View' } Project Description
                 </button>
@@ -149,7 +149,7 @@ render () {
                 </div>
             </article>
             <article className="project-four">
-                <h3><a href="https://iomt-app.herokuapp.com" target="_blank">Island of Misfit Techies</a></h3>
+                <h3><a href="https://iomt-app.herokuapp.com" target="_blank"><u>Island of Misfit Techies</u></a></h3>
                 <button onClick={this.toggleProject4Handler}>
                     {this.state.showProjectFour ? 'Hide' : 'View' } Project Description
                 </button>
