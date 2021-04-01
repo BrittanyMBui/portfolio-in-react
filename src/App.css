@@ -92,7 +92,7 @@ a:hover {
     font-size: 24px;
 }
 
-img {
+.brittany {
     height: 300px;
     width: 190px;
     border-radius: 50%;
@@ -107,6 +107,11 @@ img {
 
 #projects {
     text-align: center;
+}
+
+.project-photo {
+    max-width: 700px;
+    max-height: 600px;
 }
 
 .contact {

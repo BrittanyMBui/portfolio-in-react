@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import iomt from '../images/iomt.png';
+import iomt2 from '../images/iomt2.png';
+import zanou from '../images/zanou.png';
+import tama from '../images/tama.png';
 
 class Projects extends React.Component {
     state = {
@@ -76,6 +80,7 @@ render () {
                     trigger a new gif to display their ailment.
                     I had a lot of fun building this one. It was an excellent introduction to the 
                     infinite possibilities of coding.
+                    <img src={tama} alt="tamagotchi" className="project-photo" />
                 </p>
                 </div>
             </article>
@@ -100,7 +105,10 @@ render () {
                     the session, redirecting them to the landing page.
                     I integrated a Rich Text Editor (Tiny MCE) for journal entries.
                     I implemented Bcrypt functionality for password protection, and implemented Express Validator
-                    for confirm password functionality upon sign-up. I was and still am incredibly proud of this project!
+                    for confirm password functionality upon sign-up. This project was not only an incredible experience coding-wise,
+                    but also because my project partner ended up becoming a great friend! We plan to release Zanou v2 very soon!
+                    <br />
+                    <img src={zanou} alt="zanou" className="project-photo" />
                 </p>
                 </div>
             </article>
@@ -158,6 +166,9 @@ render () {
                     I am incredibly proud of this project because it greatly sharpened my React skills. I also gained a lot of experience with integrating multiple APIs into a single
                     application and RESTful API routing. I truly enjoyed building an application using MERN stack! It was extremely complex with a ton of moving parts, but that's the
                     gist of why I love programming.
+                    <img src={iomt} alt="iomt" className="project-photo" />
+                    <br />
+                    <img src={iomt2} alt="iomt" className="project-photo" />
                 </p>
                 </div>
             </article>

@@ -3,7 +3,7 @@ const About = () => {
 return (
     <div id="about">
         <h1>About</h1>
-        <img src="https://imgur.com/EsAUm8Z.jpg" alt="brittany bui profile" />
+        <img src="https://imgur.com/EsAUm8Z.jpg" alt="brittany bui profile" className="brittany" />
         <p>
         I come from quite a diverse background as far as life and work experiences. I spent the better part of the last decade bartending, owning a small business, and intermittently pursuing my dream career of software engineering. It wasn’t until late 2020 after officially losing my bartending job to covid that I was able to finally put 100% into making my dream a reality. I have a great love and genuine enjoyment for developing back end functionality. I especially enjoy working with APIs and building back end application functionality using Express, Node, and MongoDB.
             <br />I spend most of my time coding because I genuinely <strong>love</strong> it, 
