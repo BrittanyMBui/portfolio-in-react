@@ -3,6 +3,8 @@ import iomt from '../images/iomt.png';
 import iomt2 from '../images/iomt2.png';
 import zanou from '../images/zanou.png';
 import tama from '../images/tama.png';
+import chathomepage from '../images/chathomepage.png';
+import chatroom from '../images/chatroom.png';
 
 class Projects extends React.Component {
     state = {
@@ -11,6 +13,7 @@ class Projects extends React.Component {
         showProjectTwo: false,
         showProjectThree: false,
         showProjectFour: false,
+        showProjectFive: false,
     }
 
  
@@ -51,6 +54,14 @@ class Projects extends React.Component {
         this.setState((prevState) => {
             return {
                 showProjectFour: !prevState.showProjectFour
+            }
+        })
+    }
+
+    toggleProject5Handler = (event) => {
+        this.setState((prevState) => {
+            return {
+                showProjectFive: !prevState.showProjectFive
             }
         })
     }
@@ -158,7 +169,7 @@ render () {
                     This was my capstone project at General Assembly. I chose to build a space for women and underrepresented people in technology. I built this
                     project using MongoDB, Express, React, and Node. I did all of the CSS and styling from scratch.
                     This application includes a customized news feed after user login and a journal-like page where
-                    a user could create/view/edit/delete their own plaintext content. I integreated the TinyMCE rich text editor for the user created content. On the server-side, I 
+                    a user could create/view/edit/delete their own plaintext content. I integrated the TinyMCE rich text editor for the user created content. On the server-side, I 
                     created a User model and Posts model to pass posts and user data from the server to React. I also implemented JWT authentication and route authorization.
                     I had a questionable amount of fun implementing auth from Express to React. I really enjoyed refactoring my routes in Express and testing new ones in Postman.
                     I used Bcryptjs to hash passwords in the database. 
@@ -169,6 +180,23 @@ render () {
                     <img src={iomt} alt="iomt" className="project-photo" />
                     <br />
                     <img src={iomt2} alt="iomt" className="project-photo" />
+                </p>
+                </div>
+            </article>
+            <article className="project-five">
+                <h3><a href="https://github.com/BrittanyMBui/chat-app" target="_blank"><u>Socket.io Chat App</u></a></h3>
+                <button onClick={this.toggleProject5Handler}>
+                    {this.state.showProjectFive ? 'Hide' : 'View' } Project Description                
+                </button>
+                <div style={{ display: this.state.showProjectFive ? 'block' : 'none' }}>
+                <p className="project-desc">
+                    This app is a very simple chat service that was built using JavaScript, React, Node, and Socket.io. 
+                    A user can navigate to the homepage, type in the name of a chatroom, and enter the chatroom. Inside of the specific chatroom,
+                    the user can send a message which will be received by any other participants in the chatroom. I built this quick project
+                    to learn how to use Socket.io and implement real time sending and receiving of data between users.
+                    <img src={chathomepage} alt="chat app homepage" className="project-photo" />
+                    <br />
+                    <img src={chatroom} alt="chatroom" className="project-photo" />
                 </p>
                 </div>
             </article>
