@@ -10,9 +10,9 @@ return (
             <br />but when I'm not coding you might find me working out, binging Netflix, or playing RPG's.
             <br />
             <br /><h1>Skills</h1>
-            <p>Languages/Libraries/Frameworks: JavaScript, React, Node.js, Express.js, jQuery, HTML5, CSS3, Python, Django, Mongoose, RESTful APIs
+            <p>Front End/Back End: JavaScript, React, Node.js, Express.js, jQuery, HTML5, CSS3, Python, Django, Mongoose, RESTful APIs
             <br />Databases: MongoDB, MongoDB Atlas, PostgreSQL
-            <br />Tools: Git, Github, Terminal, UNIX, Linux, VS Code, Heroku </p>
+            <br />Other: Git, Github, Terminal, UNIX, Linux, VS Code, Heroku, Postman</p>
         </p>
     </div>
     );
