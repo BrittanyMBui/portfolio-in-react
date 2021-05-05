@@ -80,7 +80,7 @@ render () {
                 <div style={{ display: this.state.showProjectZero ? 'block' : 'none' }}>
                 <p className="project-desc">
                     This was my first coding project at General Assembly.
-                    I built an in-browser interactive game where a user
+                    I built an in browser interactive game where a user
                     could care for a pet until it dies of old age or neglect.
                     I built this project using JavaScript, jQuery, HTML, and CSS.
                     I used JavaScript and jQuery to access DOM elements and make
@@ -104,19 +104,19 @@ render () {
                 <p className="project-desc">
                     This was my second coding project at General Assembly, and also my
                     first group project experience. My partner and I chose to build out a personal
-                    journaling app, where a user could sign-up or log-in to a private profile and
+                    journaling app, where a user could signup or login to a private profile and
                     create, read, edit, or delete journal entries. We built this app using JavaScript,
                     Express.js, Node.js, EJS, Mongoose, and used MongoDB for the database.
-                    My role in this project was to build out the back-end and functionality. I built the server
+                    My role in this project was to build out the backend and functionality. I built the server
                     using Express.js and the database with Mongoose/MongoDB. I built routes and controllers
                     to allow a user to sign-up or log-in to their profile, each of which would begin a session using
                     Express Session. I also built routes and controllers for a user to be able to create a new entry,
                     edit an existing entry, view all entries, view one entry, delete an entry, or delete their accounts
-                    entirely. I also built a route and controller for a user to log-out of their profile and destroy
+                    entirely. I also built a route and controller for a user to logout of their profile and destroy
                     the session, redirecting them to the landing page.
                     I integrated a Rich Text Editor (Tiny MCE) for journal entries.
                     I implemented Bcrypt functionality for password protection, and implemented Express Validator
-                    for confirm password functionality upon sign-up. This project was not only an incredible experience coding-wise,
+                    for confirm password functionality upon signup. This project was not only an incredible experience coding-wise,
                     but also because my project partner ended up becoming a great friend! We plan to release Zanou v2 very soon!
                     <br />
                     <img src={zanou} alt="zanou" className="project-photo" />
@@ -131,14 +131,14 @@ render () {
                 <div style={{ display: this.state.showProjectTwo ? 'block' : 'none' }}>
                 <p className="project-desc">
                     This was my third coding project at General Assembly. The purpose of this app was simply to display
-                    knowledge and skills of the Django framework. I built it without a real-world use-case in mind but had a lot
-                    of fun with building it out. In this app, a user could sign-up or log-in to a profile page. From their profile page,
+                    knowledge and skills of the Django framework. I built it without a real use case in mind but had a lot
+                    of fun with building it out. In this app, a user could signup or login to a profile page. From their profile page,
                     they could add some information about a sea creature including name, species, and description. I integrated AWS S3 to
                     add a photo upload feature as well. I also added a feature where the user could 'feed' their sea creature from a list of
                     'meals' and choose whether it was breakfast, lunch, or dinner. Each 'feeding' would display in a form on the creature's page.
                     I added conditional logic to display a message to the user if their creature had not been fed, or whether the creature had
                     been fed all meals for the day. I built this project using Django, Materialize CSS, CSS, HTML, and used PostgreSQL as
-                    the database. Link coming soon! I am happy to demo this app to anyone who may be interested!
+                    the database.
                 </p>
                 </div>
             </article>
@@ -149,13 +149,13 @@ render () {
                 </button>
                 <div style={{ display: this.state.showProjectThree ? 'block' : 'none' }}>
                 <p className="project-desc">
-                    This was a project I chose to build in my free-time after finishing the Django curriculum at General Assembly.
-                    I decided to take the skills I learned and apply them to an app that would have a real-world use-case.
-                    This is a very simple and user friendly to-do list. In this app, a user could sign-up or log-in to their profile page. 
-                    From their profile page, they could view the titles and dates of each to-do task. Clicking on a task would bring the user
-                    to a detailed view page of the to-do task. From there, they can edit or delete the task as well.
-                    From the profile page, the user can also add a new to-do task. I built this project using Python, Django, CSS, and PostgreSQL
-                    as the database. Link coming soon! I am happy to demo this app to anyone who may be interested!
+                    This was a project I chose to build in my free time after finishing the Django curriculum at General Assembly.
+                    I decided to take the skills I learned and apply them to an app that would have a real use case.
+                    This is a very simple and user friendly to do list. In this app, a user could signup or login to their profile page. 
+                    From their profile page, they could view the titles and dates of each to do task. Clicking on a task would bring the user
+                    to a detailed view page of the to do task. From there, they can edit or delete the task as well.
+                    From the profile page, the user can also add a new to do task. I built this project using Python, Django, CSS, and PostgreSQL
+                    as the database.
                 </p>
                 </div>
             </article>
@@ -168,8 +168,8 @@ render () {
                 <p className="project-desc">
                     This was my capstone project at General Assembly. I chose to build a space for women and underrepresented people in technology. I built this
                     project using MongoDB, Express, React, and Node. I did all of the CSS and styling from scratch.
-                    This application includes a customized news feed after user login and a journal-like page where
-                    a user could create/view/edit/delete their own plaintext content. I integrated the TinyMCE rich text editor for the user created content. On the server-side, I 
+                    This application includes a customized news feed after user login and a journal like page where
+                    a user could create/view/edit/delete their own plaintext content. I integrated the TinyMCE rich text editor for the user created content. On the server side, I 
                     created a User model and Posts model to pass posts and user data from the server to React. I also implemented JWT authentication and route authorization.
                     I had a questionable amount of fun implementing auth from Express to React. I really enjoyed refactoring my routes in Express and testing new ones in Postman.
                     I used Bcryptjs to hash passwords in the database. 
