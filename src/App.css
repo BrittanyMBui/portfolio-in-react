@@ -21,6 +21,7 @@ button {
     border-radius: 4px;
     padding: 4px 6px;
     margin: 4px 6px;
+    background-color: whitesmoke;
 }
 
 button:hover {
@@ -77,6 +78,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 12px;
 }
 
 .home-header {
@@ -97,7 +99,8 @@ a:hover {
     height: 300px;
     width: 190px;
     border-radius: 50%;
-    border: 3px solid var(--bg)
+    border: 3px solid var(--bg);
+    margin-bottom: 8px;
 }
 
 #about {
@@ -109,6 +112,7 @@ a:hover {
 
 #projects {
     text-align: center;
+    padding-bottom: 12px;
 }
 
 .project-photo {
