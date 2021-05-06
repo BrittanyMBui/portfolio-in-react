@@ -124,7 +124,7 @@ render () {
                 </div>
             </article>
             <article className="project-two">
-                <h3>Sea Creature Collector</h3>
+                <h3><a href="https://github.com/BrittanyMBui/seacreaturecollector/" target="_blank"><u>Sea Creature Collector</u></a></h3>
                 <button onClick={this.toggleProjects2Handler}>
                     {this.state.showProjectTwo ? 'Hide' : 'View' } Project Description
                 </button>
