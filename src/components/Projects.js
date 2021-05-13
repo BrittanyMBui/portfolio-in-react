@@ -176,7 +176,9 @@ render () {
                     For the news feed, I used News API and customized the endpoint query parameters to include only articles containing keywords "underrepresented and technology".
                     I am incredibly proud of this project because it greatly sharpened my React skills. I also gained a lot of experience with integrating multiple APIs into a single
                     application and RESTful API routing. I truly enjoyed building an application using MERN stack! It was extremely complex with a ton of moving parts, but that's the
-                    gist of why I love programming.
+                    gist of why I love programming. 
+                    <br />**This project is deployed on Heroku. However, NewsAPI has a hefty paywall when using it in production, so the news feed will not
+                    render after login. I am more than happy to demonstrate this app locally to anyone who may be interested.**
                     <img src={iomt} alt="iomt" className="project-photo" />
                     <br />
                     <img src={iomt2} alt="iomt" className="project-photo" />
