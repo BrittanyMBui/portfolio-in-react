@@ -17,7 +17,7 @@ return (
             <br /><strong>Frontend</strong>: JavaScript, React.js, jQuery, HTML5/CSS3, TypeScript, Bootstrap
             <br /><strong>Backend</strong>: Node.js, Express.js, Python, Django, Mongoose, GraphQL, Apollo
             <br /><strong>Databases</strong>: MongoDB, PostgreSQL
-            <br /><strong>Other</strong>: RESTful APIs, JSON, Authentication, AWS, Linux, Web Sockets
+            <br /><strong>Other</strong>: RESTful APIs, JSON, Authentication, Linux, Web Sockets
         </p>
     </div>
     );
