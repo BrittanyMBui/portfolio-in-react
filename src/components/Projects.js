@@ -5,6 +5,7 @@ import zanou from '../images/zanou.png';
 import tama from '../images/tama.png';
 import chathomepage from '../images/chathomepage.png';
 import chatroom from '../images/chatroom.png';
+import smclone from '../images/smclone.png';
 
 class Projects extends React.Component {
     state = {
@@ -143,19 +144,17 @@ render () {
                 </div>
             </article>
             <article className="project-three">
-                <h3>inCheck</h3>
+                <h3><a href="https://github.com/BrittanyMBui/social-media-app" target="_blank"><u>SMClone</u></a></h3>
                 <button onClick={this.toggleProjects3Handler}>
                     {this.state.showProjectThree ? 'Hide' : 'View' } Project Description
                 </button>
                 <div style={{ display: this.state.showProjectThree ? 'block' : 'none' }}>
                 <p className="project-desc">
-                    This was a project I chose to build in my free time after finishing the Django curriculum at General Assembly.
-                    I decided to take the skills I learned and apply them to an app that would have a real use case.
-                    This is a very simple and user friendly to do list. In this app, a user could signup or login to their profile page. 
-                    From their profile page, they could view the titles and dates of each to do task. Clicking on a task would bring the user
-                    to a detailed view page of the to do task. From there, they can edit or delete the task as well.
-                    From the profile page, the user can also add a new to do task. I built this project using Python, Django, CSS, and PostgreSQL
-                    as the database.
+                    I built this app to learn how to use GraphQL with Apollo Server. This is a very basic social media type application where a user can login,
+                    logout, add new posts, view a single post, comment on posts, view post comments, and like/unlike posts. I built this project using MongoDB,
+                    Express/NodeJS, React, GraphQL, Apollo, and Semantic UI.
+                    <br />
+                    <img src={smclone} alt="sm-clone-screenshot" className="project-photo" />
                 </p>
                 </div>
             </article>
